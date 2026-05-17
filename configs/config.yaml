@@ -1,0 +1,15 @@
+project_name: masked-collider-ml
+
+data:
+  raw_dir: data/raw/
+  processed_dir: data/processed/
+  submissions_dir: data/submissions/
+
+seed: 42
+
+cv:
+  n_splits: 5
+  stratified: true
+
+logging:
+  experiment_log: experiments/experiment_log.md
